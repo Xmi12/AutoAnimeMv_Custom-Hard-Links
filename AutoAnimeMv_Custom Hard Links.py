@@ -22,7 +22,7 @@ def Start_PATH(**kwargs) -> dict:
     global Versions,AimeListCache,BgmAPIDataCache,TMDBAPIDataCache,LogData,Separator,Proxy,TgBotMsgData,PyPath,CUSTOM_LINK_DIR
     Versions = '3.(4.5).6'
     AimeListCache = None
-    CUSTOM_LINK_DIR = 'E:\\Anime'
+    CUSTOM_LINK_DIR = '这里换成自定义硬链接路径'
     BgmAPIDataCache = {}
     TMDBAPIDataCache = {}
     LogData = f'\n\n[{strftime("%Y-%m-%d %H:%M:%S",localtime(time()))}] INFO: Running....'
